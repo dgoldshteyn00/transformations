@@ -36,54 +36,52 @@ See the file script for an example of the file format
 
 
 def parse_file(fname, points, transform, screen, color):
+    clear_screen(screen)
     file = open(fname, 'r')
-    commands = []
+    lines = []
     for line in file:
-        commands.append(line[:-1])
-    # print(commands)
-    i = 0
-    while i < len(commands):
-        if commands[i] == "line":
-            alist = commands[i + 1].split()
-            a = [int(num) for num in alist]
-            add_edge(points, a[0], a[1], a[2], a[3], a[4], a[5])
-            i += 2
-        elif commands[i] == "display":
-            screen = new_screen()
+        lines.append(line[:-1])
+    counter = 0
+    while counter < len(lines):
+        if lines[counter] == "line":
+            temp = lines[counter + 1].split()
+            w = [int(num) for num in temp]
+            add_edge(points, w[0], w[1], w[2], w[3], w[4], w[5])
+            counter += 2
+        elif lines[counter] == "display":
             draw_lines(points, screen, color)
-            display(screen)
-            i += 1
-        elif commands[i] == "ident":
+            # display(screen)
+            counter += 1
+        elif lines[counter] == "ident":
             ident(transform)
-            i += 1
-        elif commands[i] == "scale":
-            alist = commands[i + 1].split()
-            a = [int(num) for num in alist]
-            newmat = make_scale(a[0], a[1], a[2])
-            matrix_mult(newmat, transform)
-            i += 2
-        elif commands[i] == "move":
-            alist = commands[i + 1].split()
-            a = [int(num) for num in alist]
-            newmat = make_translate(a[0], a[1], a[2])
-            matrix_mult(newmat, transform)
-            i += 2
-        elif commands[i] == "rotate":
-            alist = commands[i + 1].split()
-            if alist[0] == "x":
-                newmat = make_rotX(int(alist[1]) * math.pi / 180)
-            elif alist[0] == "y":
-                newmat = make_rotY(int(alist[1]) * math.pi / 180)
+            counter += 1
+        elif lines[counter] == "scale":
+            temp = lines[counter + 1].split()
+            w = [int(num) for num in temp]
+            transform_matrix = make_scale(w[0], w[1], w[2])
+            matrix_mult(transform_matrix, transform)
+            counter += 2
+        elif lines[counter] == "move":
+            temp = lines[counter + 1].split()
+            w = [int(num) for num in temp]
+            transform_matrix = make_translate(w[0], w[1], w[2])
+            matrix_mult(transform_matrix, transform)
+            counter += 2
+        elif lines[counter] == "rotate":
+            temp = lines[counter + 1].split()
+            if temp[0] == "x":
+                transform_matrix = make_rotX(int(temp[1]) * math.pi / 180)
+            elif temp[0] == "y":
+                transform_matrix = make_rotY(int(temp[1]) * math.pi / 180)
             else:
-                newmat = make_rotZ(int(alist[1]) * math.pi / 180)
-            matrix_mult(newmat, transform)
-            i += 2
-        elif commands[i] == "apply":
+                transform_matrix = make_rotZ(int(temp[1]) * math.pi / 180)
+            matrix_mult(transform_matrix, transform)
+            counter += 2
+        elif lines[counter] == "apply":
             matrix_mult(transform, points)
-            i += 1
+            counter += 1
         else:
-            screen = new_screen()
             draw_lines(points, screen, color)
-            display(screen)
+            # display(screen)
             save_ppm_ascii(screen, 'pic.ppm')
-            i += 2
+            counter += 2
