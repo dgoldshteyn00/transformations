@@ -151,3 +151,5 @@ f.write("50 25 25\n")
 f.write("apply")
 
 f.close()"""
+
+print("pic.ppm")
