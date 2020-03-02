@@ -11,9 +11,8 @@ import math
 
 
 def make_translate(x, y, z):
-    translate = new_matrix(4, 4)
-    for i in range(4):
-        translate[i][i] = 1
+    translate = new_matrix()
+    ident(translate)
     translate[3][0] = x
     translate[3][1] = y
     translate[3][2] = z
@@ -21,7 +20,7 @@ def make_translate(x, y, z):
 
 
 def make_scale(x, y, z):
-    scale = new_matrix(4, 4)
+    scale = new_matrix()
     scale[0][0] = x
     scale[1][1] = y
     scale[2][2] = z
@@ -58,7 +57,7 @@ def print_matrix(matrix):
     print(s)
 
 
-# turn the paramter matrix into an identity matrix
+# turn the parameter matrix into an identity matrix
 # you may assume matrix is square
 def ident(matrix):
     for r in range(len(matrix[0])):
