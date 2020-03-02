@@ -11,54 +11,40 @@ import math
 
 
 def make_translate(x, y, z):
-    result = new_matrix()
-    ident(result)
-    result[0][3] = x
-    result[1][3] = y
-    result[2][3] = z
-    return result
+    translate = new_matrix(4, 4)
+    for i in range(4):
+        translate[i][i] = 1
+    translate[3][0] = x
+    translate[3][1] = y
+    translate[3][2] = z
+    return translate
 
 
 def make_scale(x, y, z):
-    result = new_matrix()
-    ident(result)
-    result[0][0] = x
-    result[1][1] = y
-    result[2][2] = z
-    return result
+    scale = new_matrix(4, 4)
+    scale[0][0] = x
+    scale[1][1] = y
+    scale[2][2] = z
+    scale[3][3] = 1
+    return scale
 
 
 def make_rotX(theta):
-    theta = math.radians(float(theta))
-    result = new_matrix()
-    ident(result)
-    result[1][1] = math.cos(theta)
-    result[2][1] = -math.sin(theta)
-    result[1][2] = math.sin(theta)
-    result[2][2] = math.cos(theta)
-    return result
+    rotate = [[1, 0, 0, 0], [0, math.cos(theta), math.sin(theta), 0], [0, -1 * math.sin(theta), math.cos(theta), 0],
+              [0, 0, 0, 1]]
+    return rotate
 
 
 def make_rotY(theta):
-    theta = math.radians(float(theta))
-    result = new_matrix()
-    ident(result)
-    result[0][0] = math.cos(theta)
-    result[2][0] = math.sin(theta)
-    result[0][2] = -math.sin(theta)
-    result[2][2] = math.cos(theta)
-    return result
+    rotate = [[math.cos(theta), 0, -1 * math.sin(theta), 0], [0, 1, 0, 0], [math.sin(theta), 0, math.cos(theta), 0],
+              [0, 0, 0, 1]]
+    return rotate
 
 
 def make_rotZ(theta):
-    theta = math.radians(float(theta))
-    result = new_matrix()
-    ident(result)
-    result[0][0] = math.cos(theta)
-    result[1][0] = -math.sin(theta)
-    result[0][1] = math.sin(theta)
-    result[1][1] = math.cos(theta)
-    return result
+    rotate = [[math.cos(theta), math.sin(theta), 0, 0], [-1 * math.sin(theta), math.cos(theta), 0, 0], [0, 0, 1, 0],
+              [0, 0, 0, 1]]
+    return rotate
 
 
 # print the matrix such that it looks like
@@ -72,7 +58,7 @@ def print_matrix(matrix):
     print(s)
 
 
-# turn the parameter matrix into an identity matrix
+# turn the paramter matrix into an identity matrix
 # you may assume matrix is square
 def ident(matrix):
     for r in range(len(matrix[0])):
