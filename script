@@ -1,51 +1,2013 @@
 line
-0 0 0 100 0 0
+0 0 25 100 0 25
 line
-100 0 0 100 100 0
+100 0 25 100 100 75
 line
-100 100 0 0 100 0
+100 100 75 0 100 75
 line
-0 100 0 0 0 0
+0 100 75 0 0 25
 line
-0 0 100 100 0 100
+0 0 125 100 0 125
 line
-100 0 100 100 100 100
+100 0 125 100 100 175
 line
-100 100 100 0 100 100
+100 100 175 0 100 175
 line
-0 100 100 0 0 100
+0 100 175 0 0 125
 line
-0 0 0 0 0 100
+0 0 25 0 0 125
 line
-0 100 0 0 100 100
+0 100 75 0 100 175
 line
-100 100 0 100 100 100
+100 100 75 100 100 175
 line
-100 0 0 100 0 100
-display
+100 0 25 100 0 125
 ident
 scale
-2 2 2
+3 3 3
 apply
-display
 ident
 move
-100 100 0
+50 25 25
+apply
+ident
+rotate
+z 2
+rotate
+x 2
+rotate
+y 2
+apply
+ident
 apply
 display
 ident
 rotate
-z 20
+z 2
 rotate
-x 20
+x 2
 rotate
-y 20
+y 2
+apply
+ident
 apply
 display
 ident
 rotate
-y 20
+z 2
+rotate
+x 2
+rotate
+y 2
+apply
+ident
+apply
+display
+ident
+rotate
+z 2
+rotate
+x 2
+rotate
+y 2
+apply
+ident
+apply
+display
+ident
+rotate
+z 2
+rotate
+x 2
+rotate
+y 2
+apply
+ident
+apply
+display
+ident
+rotate
+z 2
+rotate
+x 2
+rotate
+y 2
+apply
+ident
+apply
+display
+ident
+rotate
+z 2
+rotate
+x 2
+rotate
+y 2
+apply
+ident
+apply
+display
+ident
+rotate
+z 2
+rotate
+x 2
+rotate
+y 2
+apply
+ident
+apply
+display
+ident
+rotate
+z 2
+rotate
+x 2
+rotate
+y 2
+apply
+ident
+apply
+display
+ident
+rotate
+z 2
+rotate
+x 2
+rotate
+y 2
+apply
+ident
+apply
+display
+ident
+rotate
+z 2
+rotate
+x 2
+rotate
+y 2
+apply
+ident
+apply
+display
+ident
+rotate
+z 2
+rotate
+x 2
+rotate
+y 2
+apply
+ident
+apply
+display
+ident
+rotate
+z 2
+rotate
+x 2
+rotate
+y 2
+apply
+ident
+apply
+display
+ident
+rotate
+z 2
+rotate
+x 2
+rotate
+y 2
+apply
+ident
+apply
+display
+ident
+rotate
+z 2
+rotate
+x 2
+rotate
+y 2
+apply
+ident
+apply
+display
+ident
+rotate
+z 2
+rotate
+x 2
+rotate
+y 2
+apply
+ident
+apply
+display
+ident
+rotate
+z 2
+rotate
+x 2
+rotate
+y 2
+apply
+ident
+apply
+display
+ident
+rotate
+z 2
+rotate
+x 2
+rotate
+y 2
+apply
+ident
+apply
+display
+ident
+rotate
+z 2
+rotate
+x 2
+rotate
+y 2
+apply
+ident
+apply
+display
+ident
+rotate
+z 2
+rotate
+x 2
+rotate
+y 2
+apply
+ident
+apply
+display
+ident
+rotate
+z 2
+rotate
+x 2
+rotate
+y 2
+apply
+ident
+apply
+display
+ident
+rotate
+z 2
+rotate
+x 2
+rotate
+y 2
+apply
+ident
+apply
+display
+ident
+rotate
+z 2
+rotate
+x 2
+rotate
+y 2
+apply
+ident
+apply
+display
+ident
+rotate
+z 2
+rotate
+x 2
+rotate
+y 2
+apply
+ident
+apply
+display
+ident
+rotate
+z 2
+rotate
+x 2
+rotate
+y 2
+apply
+ident
+apply
+display
+ident
+rotate
+z 2
+rotate
+x 2
+rotate
+y 2
+apply
+ident
+apply
+display
+ident
+rotate
+z 2
+rotate
+x 2
+rotate
+y 2
+apply
+ident
+apply
+display
+ident
+rotate
+z 2
+rotate
+x 2
+rotate
+y 2
+apply
+ident
+apply
+display
+ident
+rotate
+z 2
+rotate
+x 2
+rotate
+y 2
+apply
+ident
+apply
+display
+ident
+rotate
+z 2
+rotate
+x 2
+rotate
+y 2
+apply
+ident
+apply
+display
+ident
+rotate
+z 2
+rotate
+x 2
+rotate
+y 2
+apply
+ident
+apply
+display
+ident
+rotate
+z 2
+rotate
+x 2
+rotate
+y 2
+apply
+ident
+apply
+display
+ident
+rotate
+z 2
+rotate
+x 2
+rotate
+y 2
+apply
+ident
+apply
+display
+ident
+rotate
+z 2
+rotate
+x 2
+rotate
+y 2
+apply
+ident
+apply
+display
+ident
+rotate
+z 2
+rotate
+x 2
+rotate
+y 2
+apply
+ident
+apply
+display
+ident
+rotate
+z 2
+rotate
+x 2
+rotate
+y 2
+apply
+ident
+apply
+display
+ident
+rotate
+z 2
+rotate
+x 2
+rotate
+y 2
+apply
+ident
+apply
+display
+ident
+rotate
+z 2
+rotate
+x 2
+rotate
+y 2
+apply
+ident
+apply
+display
+ident
+rotate
+z 2
+rotate
+x 2
+rotate
+y 2
+apply
+ident
+apply
+display
+ident
+rotate
+z 2
+rotate
+x 2
+rotate
+y 2
+apply
+ident
+apply
+display
+ident
+rotate
+z 2
+rotate
+x 2
+rotate
+y 2
+apply
+ident
+apply
+display
+ident
+rotate
+z 2
+rotate
+x 2
+rotate
+y 2
+apply
+ident
+apply
+display
+ident
+rotate
+z 2
+rotate
+x 2
+rotate
+y 2
+apply
+ident
+apply
+display
+ident
+rotate
+z 2
+rotate
+x 2
+rotate
+y 2
+apply
+ident
+apply
+display
+ident
+rotate
+z 2
+rotate
+x 2
+rotate
+y 2
+apply
+ident
+apply
+display
+ident
+rotate
+z 2
+rotate
+x 2
+rotate
+y 2
+apply
+ident
+apply
+display
+ident
+rotate
+z 2
+rotate
+x 2
+rotate
+y 2
+apply
+ident
+apply
+display
+ident
+rotate
+z 2
+rotate
+x 2
+rotate
+y 2
+apply
+ident
+apply
+display
+ident
+rotate
+z 2
+rotate
+x 2
+rotate
+y 2
+apply
+ident
+apply
+display
+ident
+rotate
+z 2
+rotate
+x 2
+rotate
+y 2
+apply
+ident
+apply
+display
+ident
+rotate
+z 2
+rotate
+x 2
+rotate
+y 2
+apply
+ident
+apply
+display
+ident
+rotate
+z 2
+rotate
+x 2
+rotate
+y 2
+apply
+ident
+apply
+display
+ident
+rotate
+z 2
+rotate
+x 2
+rotate
+y 2
+apply
+ident
+apply
+display
+ident
+rotate
+z 2
+rotate
+x 2
+rotate
+y 2
+apply
+ident
+apply
+display
+ident
+rotate
+z 2
+rotate
+x 2
+rotate
+y 2
+apply
+ident
+apply
+display
+ident
+rotate
+z 2
+rotate
+x 2
+rotate
+y 2
+apply
+ident
+apply
+display
+ident
+rotate
+z 2
+rotate
+x 2
+rotate
+y 2
+apply
+ident
+apply
+display
+ident
+rotate
+z 2
+rotate
+x 2
+rotate
+y 2
+apply
+ident
+apply
+display
+ident
+rotate
+z 2
+rotate
+x 2
+rotate
+y 2
+apply
+ident
+apply
+display
+ident
+rotate
+z 2
+rotate
+x 2
+rotate
+y 2
+apply
+ident
+apply
+display
+ident
+rotate
+z 2
+rotate
+x 2
+rotate
+y 2
+apply
+ident
+apply
+display
+ident
+rotate
+z 2
+rotate
+x 2
+rotate
+y 2
+apply
+ident
+apply
+display
+ident
+rotate
+z 2
+rotate
+x 2
+rotate
+y 2
+apply
+ident
+apply
+display
+ident
+rotate
+z 2
+rotate
+x 2
+rotate
+y 2
+apply
+ident
+apply
+display
+ident
+rotate
+z 2
+rotate
+x 2
+rotate
+y 2
+apply
+ident
+apply
+display
+ident
+rotate
+z 2
+rotate
+x 2
+rotate
+y 2
+apply
+ident
+apply
+display
+ident
+rotate
+z 2
+rotate
+x 2
+rotate
+y 2
+apply
+ident
+apply
+display
+ident
+rotate
+z 2
+rotate
+x 2
+rotate
+y 2
+apply
+ident
+apply
+display
+ident
+rotate
+z 2
+rotate
+x 2
+rotate
+y 2
+apply
+ident
+apply
+display
+ident
+rotate
+z 2
+rotate
+x 2
+rotate
+y 2
+apply
+ident
+apply
+display
+ident
+rotate
+z 2
+rotate
+x 2
+rotate
+y 2
+apply
+ident
+apply
+display
+ident
+rotate
+z 2
+rotate
+x 2
+rotate
+y 2
+apply
+ident
+apply
+display
+ident
+rotate
+z 2
+rotate
+x 2
+rotate
+y 2
+apply
+ident
+apply
+display
+ident
+rotate
+z 2
+rotate
+x 2
+rotate
+y 2
+apply
+ident
+apply
+display
+ident
+rotate
+z 2
+rotate
+x 2
+rotate
+y 2
+apply
+ident
+apply
+display
+ident
+rotate
+z 2
+rotate
+x 2
+rotate
+y 2
+apply
+ident
+apply
+display
+ident
+rotate
+z 2
+rotate
+x 2
+rotate
+y 2
+apply
+ident
+apply
+display
+ident
+rotate
+z 2
+rotate
+x 2
+rotate
+y 2
+apply
+ident
+apply
+display
+ident
+rotate
+z 2
+rotate
+x 2
+rotate
+y 2
+apply
+ident
+apply
+display
+ident
+rotate
+z 2
+rotate
+x 2
+rotate
+y 2
+apply
+ident
+apply
+display
+ident
+rotate
+z 2
+rotate
+x 2
+rotate
+y 2
+apply
+ident
+apply
+display
+ident
+rotate
+z 2
+rotate
+x 2
+rotate
+y 2
+apply
+ident
+apply
+display
+ident
+rotate
+z 2
+rotate
+x 2
+rotate
+y 2
+apply
+ident
+apply
+display
+ident
+rotate
+z 2
+rotate
+x 2
+rotate
+y 2
+apply
+ident
+apply
+display
+ident
+rotate
+z 2
+rotate
+x 2
+rotate
+y 2
+apply
+ident
+apply
+display
+ident
+rotate
+z 2
+rotate
+x 2
+rotate
+y 2
+apply
+ident
+apply
+display
+ident
+rotate
+z 2
+rotate
+x 2
+rotate
+y 2
+apply
+ident
+apply
+display
+ident
+rotate
+z 2
+rotate
+x 2
+rotate
+y 2
+apply
+ident
+apply
+display
+ident
+rotate
+z 2
+rotate
+x 2
+rotate
+y 2
+apply
+ident
+apply
+display
+ident
+rotate
+z 2
+rotate
+x 2
+rotate
+y 2
+apply
+ident
+apply
+display
+ident
+rotate
+z 2
+rotate
+x 2
+rotate
+y 2
+apply
+ident
+apply
+display
+ident
+rotate
+z 2
+rotate
+x 2
+rotate
+y 2
+apply
+ident
+apply
+display
+ident
+rotate
+z 2
+rotate
+x 2
+rotate
+y 2
+apply
+ident
+apply
+display
+ident
+rotate
+z 2
+rotate
+x 2
+rotate
+y 2
+apply
+ident
+apply
+display
+ident
+rotate
+z 2
+rotate
+x 2
+rotate
+y 2
+apply
+ident
+apply
+display
+ident
+rotate
+z 2
+rotate
+x 2
+rotate
+y 2
+apply
+ident
+apply
+display
+ident
+rotate
+z 2
+rotate
+x 2
+rotate
+y 2
+apply
+ident
+apply
+display
+ident
+rotate
+z 2
+rotate
+x 2
+rotate
+y 2
+apply
+ident
+apply
+display
+ident
+rotate
+z 2
+rotate
+x 2
+rotate
+y 2
+apply
+ident
+apply
+display
+ident
+rotate
+z 2
+rotate
+x 2
+rotate
+y 2
+apply
+ident
+apply
+display
+ident
+rotate
+z 2
+rotate
+x 2
+rotate
+y 2
+apply
+ident
+apply
+display
+ident
+rotate
+z 2
+rotate
+x 2
+rotate
+y 2
+apply
+ident
+apply
+display
+ident
+rotate
+z 2
+rotate
+x 2
+rotate
+y 2
+apply
+ident
+apply
+display
+ident
+rotate
+z 2
+rotate
+x 2
+rotate
+y 2
+apply
+ident
+apply
+display
+ident
+rotate
+z 2
+rotate
+x 2
+rotate
+y 2
+apply
+ident
+apply
+display
+ident
+rotate
+z 2
+rotate
+x 2
+rotate
+y 2
+apply
+ident
+apply
+display
+ident
+rotate
+z 2
+rotate
+x 2
+rotate
+y 2
+apply
+ident
+apply
+display
+ident
+rotate
+z 2
+rotate
+x 2
+rotate
+y 2
+apply
+ident
+apply
+display
+ident
+rotate
+z 2
+rotate
+x 2
+rotate
+y 2
+apply
+ident
+apply
+display
+ident
+rotate
+z 2
+rotate
+x 2
+rotate
+y 2
+apply
+ident
+apply
+display
+ident
+rotate
+z 2
+rotate
+x 2
+rotate
+y 2
+apply
+ident
+apply
+display
+ident
+rotate
+z 2
+rotate
+x 2
+rotate
+y 2
+apply
+ident
+apply
+display
+ident
+rotate
+z 2
+rotate
+x 2
+rotate
+y 2
+apply
+ident
+apply
+display
+ident
+rotate
+z 2
+rotate
+x 2
+rotate
+y 2
+apply
+ident
+apply
+display
+ident
+rotate
+z 2
+rotate
+x 2
+rotate
+y 2
+apply
+ident
+apply
+display
+ident
+rotate
+z 2
+rotate
+x 2
+rotate
+y 2
+apply
+ident
+apply
+display
+ident
+rotate
+z 2
+rotate
+x 2
+rotate
+y 2
+apply
+ident
+apply
+display
+ident
+rotate
+z 2
+rotate
+x 2
+rotate
+y 2
+apply
+ident
+apply
+display
+ident
+rotate
+z 2
+rotate
+x 2
+rotate
+y 2
+apply
+ident
+apply
+display
+ident
+rotate
+z 2
+rotate
+x 2
+rotate
+y 2
+apply
+ident
+apply
+display
+ident
+rotate
+z 2
+rotate
+x 2
+rotate
+y 2
+apply
+ident
+apply
+display
+ident
+rotate
+z 2
+rotate
+x 2
+rotate
+y 2
+apply
+ident
+apply
+display
+ident
+rotate
+z 2
+rotate
+x 2
+rotate
+y 2
+apply
+ident
+apply
+display
+ident
+rotate
+z 2
+rotate
+x 2
+rotate
+y 2
+apply
+ident
+apply
+display
+ident
+rotate
+z 2
+rotate
+x 2
+rotate
+y 2
+apply
+ident
+apply
+display
+ident
+rotate
+z 2
+rotate
+x 2
+rotate
+y 2
+apply
+ident
+apply
+display
+ident
+rotate
+z 2
+rotate
+x 2
+rotate
+y 2
+apply
+ident
+apply
+display
+ident
+rotate
+z 2
+rotate
+x 2
+rotate
+y 2
+apply
+ident
+apply
+display
+ident
+rotate
+z 2
+rotate
+x 2
+rotate
+y 2
+apply
+ident
+apply
+display
+ident
+rotate
+z 2
+rotate
+x 2
+rotate
+y 2
+apply
+ident
+apply
+display
+ident
+rotate
+z 2
+rotate
+x 2
+rotate
+y 2
+apply
+ident
+apply
+display
+ident
+rotate
+z 2
+rotate
+x 2
+rotate
+y 2
+apply
+ident
+apply
+display
+ident
+rotate
+z 2
+rotate
+x 2
+rotate
+y 2
+apply
+ident
+apply
+display
+ident
+rotate
+z 2
+rotate
+x 2
+rotate
+y 2
+apply
+ident
+apply
+display
+ident
+rotate
+z 2
+rotate
+x 2
+rotate
+y 2
+apply
+ident
+apply
+display
+ident
+rotate
+z 2
+rotate
+x 2
+rotate
+y 2
+apply
+ident
+apply
+display
+ident
+rotate
+z 2
+rotate
+x 2
+rotate
+y 2
+apply
+ident
+apply
+display
+ident
+rotate
+z 2
+rotate
+x 2
+rotate
+y 2
+apply
+ident
+apply
+display
+ident
+rotate
+z 2
+rotate
+x 2
+rotate
+y 2
+apply
+ident
+apply
+display
+ident
+rotate
+z 2
+rotate
+x 2
+rotate
+y 2
+apply
+ident
+apply
+display
+ident
+rotate
+z 2
+rotate
+x 2
+rotate
+y 2
+apply
+ident
+apply
+display
+ident
+rotate
+z 2
+rotate
+x 2
+rotate
+y 2
+apply
+ident
+apply
+display
+ident
+rotate
+z 2
+rotate
+x 2
+rotate
+y 2
+apply
+ident
+apply
+display
+ident
+rotate
+z 2
+rotate
+x 2
+rotate
+y 2
+apply
+ident
+apply
+display
+ident
+rotate
+z 2
+rotate
+x 2
+rotate
+y 2
+apply
+ident
+apply
+display
+ident
+rotate
+z 2
+rotate
+x 2
+rotate
+y 2
+apply
+ident
+apply
+display
+ident
+rotate
+z 2
+rotate
+x 2
+rotate
+y 2
+apply
+ident
+apply
+display
+ident
+rotate
+z 2
+rotate
+x 2
+rotate
+y 2
+apply
+ident
+apply
+display
+ident
+rotate
+z 2
+rotate
+x 2
+rotate
+y 2
+apply
+ident
+apply
+display
+ident
+rotate
+z 2
+rotate
+x 2
+rotate
+y 2
+apply
+ident
+apply
+display
+ident
+rotate
+z 2
+rotate
+x 2
+rotate
+y 2
+apply
+ident
+apply
+display
+ident
+rotate
+z 2
+rotate
+x 2
+rotate
+y 2
+apply
+ident
+apply
+display
+ident
+rotate
+z 2
+rotate
+x 2
+rotate
+y 2
+apply
+ident
+apply
+display
+ident
+rotate
+z 2
+rotate
+x 2
+rotate
+y 2
+apply
+ident
+apply
+display
+ident
+rotate
+z 2
+rotate
+x 2
+rotate
+y 2
+apply
+ident
+apply
+display
+ident
+rotate
+z 2
+rotate
+x 2
+rotate
+y 2
+apply
+ident
+apply
+display
+ident
+rotate
+z 2
+rotate
+x 2
+rotate
+y 2
+apply
+ident
+apply
+display
+ident
+rotate
+z 2
+rotate
+x 2
+rotate
+y 2
+apply
+ident
+apply
+display
+ident
+rotate
+z 2
+rotate
+x 2
+rotate
+y 2
+apply
+ident
+apply
+display
+ident
+rotate
+z 2
+rotate
+x 2
+rotate
+y 2
+apply
+ident
+apply
+display
+ident
+rotate
+z 2
+rotate
+x 2
+rotate
+y 2
+apply
+ident
+apply
+display
+ident
+rotate
+z 2
+rotate
+x 2
+rotate
+y 2
+apply
+ident
+apply
+display
+ident
+rotate
+z 2
+rotate
+x 2
+rotate
+y 2
+apply
+ident
+apply
+display
+ident
+rotate
+z 2
+rotate
+x 2
+rotate
+y 2
+apply
+ident
+apply
+display
+ident
+rotate
+z 2
+rotate
+x 2
+rotate
+y 2
+apply
+ident
+apply
+display
+ident
+rotate
+z 2
+rotate
+x 2
+rotate
+y 2
+apply
+ident
+apply
+display
+ident
+rotate
+z 2
+rotate
+x 2
+rotate
+y 2
+apply
+ident
+apply
+display
+ident
+rotate
+z 2
+rotate
+x 2
+rotate
+y 2
+apply
+ident
+apply
+display
+ident
+rotate
+z 2
+rotate
+x 2
+rotate
+y 2
+apply
+ident
+apply
+display
+ident
+rotate
+z 2
+rotate
+x 2
+rotate
+y 2
+apply
+ident
+apply
+display
+ident
+rotate
+z 2
+rotate
+x 2
+rotate
+y 2
+apply
+ident
+apply
+display
+ident
+rotate
+z 2
+rotate
+x 2
+rotate
+y 2
+apply
+ident
+apply
+display
+ident
+rotate
+z 2
+rotate
+x 2
+rotate
+y 2
+apply
+ident
+apply
+display
+ident
+rotate
+z 2
+rotate
+x 2
+rotate
+y 2
+apply
+ident
+apply
+display
+ident
+rotate
+z 2
+rotate
+x 2
+rotate
+y 2
+apply
+ident
+apply
+display
+ident
+rotate
+z 2
+rotate
+x 2
+rotate
+y 2
+apply
+ident
+apply
+display
+ident
+rotate
+z 2
+rotate
+x 2
+rotate
+y 2
+apply
+ident
+apply
+display
+ident
+rotate
+z 2
+rotate
+x 2
+rotate
+y 2
+apply
+ident
+apply
+display
+ident
+rotate
+z 2
+rotate
+x 2
+rotate
+y 2
+apply
+ident
+apply
+display
+ident
+rotate
+z 2
+rotate
+x 2
+rotate
+y 2
+apply
+ident
 apply
 display
 save
-pic.png
